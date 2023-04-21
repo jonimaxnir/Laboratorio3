@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+
+    <body style="background-color: aquamarine;">
+        
+        <h1 style="text-align: center;">Primer Parrafo corto (Incluye el retorno de carro)</h1>
+
+        <h2>Segundo parrafo corto (Incluye retorno de carro)</h2>
+
+        <h2>Grupo de elementos de navegacion</h2>
+
+        
+        <li>
+            <a href= "https://www.Yahoo.com.ar">Yahoo</a>
+        </li>
+        <li>
+            <a href="https://www.google.com.ar">Google</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com">Youtube</a>
+        </li>
+
+
+        <hr/>
+
+        <a href="./MismaPestana.html"> Enlace a otra pagina dentro de la misma pestania </a> <br>
+        <a href="./otrapestana.html" target="_blank"> Enlace a otra pagina en una nueva pestania </a> <br> 
+        <a href="#Ancla"> Ancla a otro punto de esta pagina </a>
+
+        <hr/>
+
+        <h1>Cuerpo principal del contenido</h1>
+
+        <p></p>
+
+        <h2>Seccion etiquetas semanticas estructurales mas importantes</h2>
+
+        <ul>    
+            <li>
+                HEADER
+            </li>
+            <li>
+                FOOTER
+            </li>
+            <li>
+                SECTION
+            </li>
+            <li>
+                ARTICLE
+            </li>
+            <li>
+                NAV
+            </li>
+            <li>
+                ADDRESS
+            </li>
+        </ul>
+
+        <br/>
+
+        <p>
+         Las etiquetas semánticas estructurales estan relacionadas directamente
+         con el significado del contenido y no con estilos ni Las posiciones dentro del 
+         documento
+        </p>
+        
+        <br/>
+
+        <h2>Reglas para Etiquetas semanticas</h2>
+
+        <ul>    
+            <li>
+                Los distintos tipos de contenido se pueden asociar a las etiquetas SECTION
+            </li>
+            <li>
+                Las unidades de contenido se asocian a las etiqueas ARTICLE. O sea que un SECTION anida multiples ARTICLES
+            </li>
+            <li>
+                Las etiqeutas HEADER y FOOTER pueden ser anidadas dentro de otras HEADER o FOOTER. O sea un FOOTER podría anidar otro HEADER y FOOTER
+            </li>
+            <li>
+                La etiqueta NAV debe ser unica en el documento y corresponde a los elementos de navegacion dele documento
+            </li>
+            <li>
+                Reservar etiqueta H1 para usar dentro de etiquetas top level como main, header o footer
+            </li>
+        </ul>
+
+
+
+
+        <section>
+            <h2>Section de Imagenes</h2>
+
+            <p>En esta seccion mostraremos imagenes identificativas de nuestro sitio</p>
+
+
+            <img src="./Nombre.png"/>    
+
+            <p>Imagen con resolucion de 600 x 300 px</p>
+
+            <p>De acuerdo a la dimension de la imagen solo la primera no pixelará.</p>
+
+            <p>Cada elemento img se ubica al lado de la anteriori hasta completar el ancho de la ventana activa (view port) </p>
+
+            <p>Todas las siguientes imagenes fueron deformadas por haber definido doble parametro de estilo (ancho y alto)</p>
+            
+            <img alt="nombre" style="width:100px;height:500px" src= "./Nombre.png" />
+            <img alt="nombre" style="width:200px;height:500px" src= "./Nombre.png" />
+            <img alt="nombre" style="width:300px;height:500px" src= "./Nombre.png" />
+            <img alt="nombre" style="width:400px;height:500px" src= "./Nombre.png" />
+            <img alt="nombre" style="width:500px;height:500px" src= "./Nombre.png" />
+
+            <hr/>
+
+        </section>
+
+            <h2>Section de video</h2>
+
+            <video src="./video-corto.mp4"></video>
+
+            <h3 id="Ancla">Anclajes</h3>
+
+        </section>
+
+        
+
+        <h1>Datos de Alumno</h1>
+
+        <p>
+        <br>Jonathan Radino</br>
+        Jonimaxnir@gmail.com
+        </p>
+
+        <a href="../Index.html">Volver</a>
+        <br>        
+    </body>
+
+</html>
