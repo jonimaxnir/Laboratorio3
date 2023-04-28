@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    </head>
+
+    <body>
+        
+        <h1>Formularios para entradas sin validacion</h1>
+
+        <form action="./respuestaFormulario.html" target="_blank" method="get">
+
+        <ul>
+            <li>
+                <label style="font-weight: bold;">Apellido</label> <br/>
+                <input type="text" id="apellido" name="apellido" value="" autofocus="autofocus" >
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Contraseña</label> <br/>
+                <input type="password" name="Contraseña">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Campo oculto: </label> <br/>
+                <input type="hidden" name="oculto">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Campo Deshabilitado</label> <br/>
+                <input type="text" name="CampDeshabilitado">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Campo de Solo Lectura</label> <br/>
+                <input type="text" name="soloLec" value="Campo de solo Lectura" readonly onmousedown="return true" style="background-color: rgb(182, 185, 184);">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Practica Deportes</label> <br/>
+                 <input type="checkbox" name="practicaDep">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Practica Musical</label> <br/>
+                 <input type="checkbox" name="practicaMus">
+            </li>
+
+            <li>
+                <label style="font-weight: bold;">Practica de Pintura Artistica</label> <br/>
+                 <input type="checkbox" name="PinturaArt">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Sexo</label> <br/>
+                <label>Femenina</label><input type="radio" name="sex"><label>Masculino</label><input type="radio" name="sex">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Estudios Cursados</label> <br>
+                <select  id="estudios" name="Estudios">                   
+                    <option value="pri" selected="selected">Primarios</option>
+                    <option value="sec">Secundario</option>
+                    <option value="ter">Terciario</option> 
+                    <option value="Uni">Universitario</option>
+                    <option value="pos">Posgrado</option>
+                </select>
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Fecha y Hora</label> <br>
+                <input type="date"> <input type="time">
+            </li>
+            <br>
+            <li>
+                <label style="font-weight: bold;">Color</label> <br>
+                <input type="color"> 
+            </li>
+            <br>
+
+            <input type="submit" value="Enviar Formulario sin Validacion"> <br>
+            <br>
+            <input type="reset" value="Restablecer formulario">
+
+        </ul>
+
+        </form>
+
+        <h1>Formulario para entradas con validacion</h1>
+
+        <form action="./respuestaFormulario.html" method="get">
+
+            <ul>
+                <li>
+                    <label style="font-weight: bold;">Comentario (Validacion por requerido)</label> <br/>
+                    <input type="text" name="comentario" required="required">
+                </li>
+                <br>
+                <li>
+                    <label style="font-weight: bold;">Email con doble validacion (x @ x y requerido)</label> <br/>
+                    <input type="email" name="user-mail" placeholder="texto@texto" />
+                </li>
+                <br>
+                <li>
+                    <label style="font-weight: bold;">Numero Decimal</label> <br/>
+                    <input type="number" min="1" max="5" name="numEntero">
+                </li>
+                <br>
+                <li>
+                    <label style="font-weight: bold;">URL (validacion por requerido, escribir http://)</label> <br/>
+                    <input type="url" name="sitio" placeholder="http://xxx">
+                </li>
+                <br>
+                <li>
+                    <label style="font-weight: bold;">Pattern de validacion</label> <br/>
+                    <input type="text" pattern="[a]" name="paternn"/>
+                </li>
+                <br>
+                <li>
+                    <label style="font-weight: bold;"> Pattern de validacion por numero de telefono</label> <br/>
+                    <input type="text" pattern="" name="tel" placeholder="+549 11 5487 1234"/>
+                </li>
+                <br>
+            </ul>
+
+            <input type="submit" value="Enviar Formulario con Validacion"> <br>
+            <br>
+            <input type="reset" value="Restablecer formulario">
+        </form>
+        <br><br>
+
+        <a href="../Index.html">Volver</a>
+    </body>
+
+
+
+</html>
