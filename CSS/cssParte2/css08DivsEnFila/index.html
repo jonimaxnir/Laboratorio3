@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Divs en Fila</title>
+
+        <style>
+        
+        div.cajaprincipal{
+            background-color: aqua;
+            float: left;      
+            
+        }
+        div.caja{
+            height:70px;
+            width: 100px;
+            box-shadow: 10px 8px 2px rgb(115, 156, 166);
+            margin-right: 15px;
+            text-align: center;
+            border: solid 1px;
+            border-radius: 10px;
+            font-size: 12px;
+            float: left;
+            margin-bottom: 10px;
+
+        }
+
+        #caja1{         
+            background-color: rgb(115, 156, 166);         
+        }
+
+        #caja2{
+           
+            background-color: rgb(115, 156, 166);           
+            background: linear-gradient(45deg,orange, white,pink);
+        }
+
+
+        
+        #caja3{
+         
+            background-color: rgb(115, 156, 166);
+            overflow: auto;
+            background-image: url(./foto.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            max-width: 100%;
+            max-height: 100%;               
+        }
+
+
+        
+        #caja4{            
+            background-color: rgb(115, 156, 166);
+            box-shadow: 20px 8px 2px rgb(115, 156, 166);
+            background: radial-gradient(red, black, yellow);
+            color:beige        
+        }
+
+
+        
+        #caja5{
+           
+            background-color: rgb(115, 156, 166);
+            box-shadow: 20px 8px 2px rgb(115, 156, 166);
+            background: linear-gradient(5deg,orange, white,pink);
+        }
+
+        #caja6{
+           
+           background-color: rgb(115, 156, 166);
+           box-shadow: 20px 8px 2px rgb(115, 156, 166);
+           background: linear-gradient(162deg,orange, black,red);
+       }
+
+
+
+        </style>
+
+
+
+        
+
+
+    </head>
+    <body>
+        <div class="cajaprincipal">
+            <h1>Cajas en Pila</h1>
+            
+            <div class="caja" id="caja1">
+                texto en caja 1
+            </div>
+
+            <div class="caja" id="caja2">
+                float
+            </div>
+
+            <div class="caja" id="caja3">
+                float
+            </div>
+
+            <div class="caja" id="caja4">
+                float
+            </div>
+
+            <div class="caja" id="caja5">
+                float
+            </div>    
+           
+            <div class="caja" id="caja6">
+                float
+            </div>
+        </div>           
+    </body>
+</html>

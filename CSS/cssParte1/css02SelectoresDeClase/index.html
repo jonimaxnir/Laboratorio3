@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <style>
+        h1{
+            margin-bottom: 2%;
+        }
+
+
+        p .claseResaltado{
+        margin-bottom: 2%;
+        background-color: aqua;
+        text-emphasis-style: black;
+        font-weight: bold;
+        }
+
+        p.claseAcotacion{
+            margin-bottom: 2%;
+            color: blue;
+            border: solid;
+            font-size: 10px;
+            border-width: thin;
+            font-style: italic;
+            width: 50%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 1%;
+            padding-top: 1%;
+        }
+
+        p.claseResaltado{
+        margin-bottom: 2%;
+        background-color: aqua;
+        text-emphasis-style: black;
+        font-weight: bold;
+        font-size: small;
+        }
+
+        p.claseAyuda{
+            margin-bottom: 2%;  
+            color: brown;
+            border: solid;
+            border-color: brown;
+            width: 50%;
+            border-width: thin;
+            border-color: rgb(62, 62, 26);
+        }
+
+        p.claseContenidoComun{
+            font-style: oblique;
+        }
+
+        p#idUnico{
+            margin-bottom: 2%;
+            color: red;
+            width: 15%;
+            border: solid;
+            border-color: red;
+            font-weight: bold;
+
+        }
+
+        img.imagenAI50{
+            width: 50%;
+        }
+        
+    </style>
+    
+</head>
+<body>
+
+<h1>A partir de esta pagina no usaremos más el atributo Style en ninguna etiqueta</h1>
+
+<h1>Todo el estilo será definido dentro de una etiqeuta Style como "clase", anidada en la etiqueta head del Documento</h1>
+
+<h1>Todos los párrafos tienen un Default como estilo que incluyen un margin-bottom para separarlos mas entre ellos</h1>
+
+<p>Este parrafo contiene un grupo de palabras delimitado por una etiqueta "span". El comienzo es aqui:<span class="claseResaltado">grupo de Palabras destacadas con el estilo claseResaltado</span> bla bla bla bla bla</p>
+
+<p class="claseAcotacion">Este párrafo toma el estilo definido en la etiqueta style en el header del documento como class ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo </p>
+
+<p class="claseResaltado">Este parrafo tome el estilo definido en la etiqeuta Style en el header del documento como class="claseReasaltado"</p>
+
+<p class="claseAyuda">Este párrafo toma el estilo definido en la etiqeuta style en el header del documento como class="claseAyuda"</p>
+
+<p class="claseContenidoComun">Este parrafo toma el estilo definido en la etiqeuta style en el header del documento como class="ClaseContenidoComun"</p>
+
+<p id="idUnico" >Párrafo formateado por un estilo particular definido en el style del documento para un parrafo específico id="idUnico". No se trata de u nselector de clase si no de un selector de elemento</p>
+
+<h1>Todas las imagenes con class="imagenAI50" en esta pagina se encuentran limitadas al 50% del ancho  del contenedor mas alla de su tamaño de imagen real</h1>
+
+<img src="./rayo.png" class="imagenAI50"></image>
+
+
+
+
+</body>
+</html>

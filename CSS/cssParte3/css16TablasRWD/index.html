@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tablas RWD</title>
+        
+        <style>
+
+            tbody tr:nth-child(odd){
+                background: rgb(red, green, blue);
+            }
+
+
+            header{
+                background-color: green;
+                color: aliceblue;
+                text-align: center;
+                
+            }
+
+          
+
+            [campo-dato='id'] {
+                height: 40px;
+                width: 1%;
+                background-color: blueviolet;                
+            }
+            [campo-dato="nick"]{
+                height: 8%;
+                width: 2%;
+                background-color: blueviolet;
+
+            }
+            [campo-dato="mail"]{
+                height: 8%;
+                width: 4%;
+                background-color: blueviolet;
+
+            }
+            [campo-dato="web"]{
+                height: 8%;
+                width: 5%;
+                background-color: blueviolet;
+
+            }
+            [campo-dato="facebook"]{
+                height: 8%;
+                width: 5%;
+                background-color: blueviolet;
+
+            }
+            [campo-dato="twitter"]{
+                height: 8%;
+                width: 5%;
+                background-color: blueviolet;
+
+            }
+
+
+           /* thead th{
+                height: 50px;
+                width: 5%;
+                background-color: antiquewhite;
+
+            }
+
+            tbody td{
+                height: 40px;
+                width: 3%;
+                background-color:blue;
+                color: beige;
+            }*/
+            
+
+            footer{
+                background-color: green;
+                color: antiquewhite;
+                text-align: center;
+            }
+
+            @media (max-width:1000px){
+                 [campo-dato='twitter'], [campo-dato='facebook']{
+                    display:none;
+                }
+            }
+
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <header><h1>Esto es Header</h1></header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th campo-dato="id">id</th>
+                    <th campo-dato="nick">nick</th>
+                    <th campo-dato="mail">mail</th>
+                    <th campo-dato="web">WEB</th>
+                    <th campo-dato="facebook">Facebook</th>
+                    <th campo-dato="twitter">TWitter</th>                    
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+                <tr>    
+                    <td campo-dato="id">1</td>
+                    <td campo-dato="nick">Fu</td>
+                    <td campo-dato="mail">nada@nada</td>
+                    <td campo-dato="web">nada.com</td>
+                    <td campo-dato="facebook">nada</td>
+                    <td campo-dato="twitter">@nada</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <footer><h2>Esto es el Footer</h2></footer>
+
+    </body>
+</html>

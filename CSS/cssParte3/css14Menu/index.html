@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+
+
+        <style>
+           
+           body{
+            background-color: beige;
+            margin-left: 0%;
+           }
+
+            /*Menu Desplegable*/
+
+            #menu ul{
+                list-style: none;
+                color: aliceblue;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                padding-left: 0%;
+             
+            }
+
+           #menu ul li{
+            background-color: rgb(178, 179, 199);
+            float: left;
+            position: relative;
+            padding: 5px;
+            justify-content: space-between;
+           }
+
+           #menu ul a{
+            display: block;
+            text-decoration: none;
+           }
+            
+           
+           
+           
+           /*Lista desplegable*/
+                  
+           #menu ul ul{
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+           }
+          
+          
+           #menu ul ul li{
+            float: none;
+            width: 90px;
+            }
+          
+           #menu ul ul a{
+            padding: 2px;
+           }
+        
+           #menu ul li:hover ul{
+            display: block;
+           }
+
+
+
+        </style>
+
+
+
+    </head>
+
+
+
+    <body>
+        <h1>Menu</h1>
+
+        <nav id="menu">
+               <ul>                 
+                        <li><a href="">HTML</a>
+                        
+                            <ul>
+                                <li><a href="">Tablas</a></li>
+                                <li><a href="">Formulario</a></li>
+                                <li><a href="">IFRames</a></li>
+                            </ul>
+                         </li>
+
+                    <li><a href="">CSS</a>
+                        <ul>
+                            <li><a href="">Tablas</a></li>
+                            <li><a href="">Formulario</a></li>
+                            <li><a href="">IFRames</a></li>
+                        </ul>
+                    
+                    </li>
+
+                    <li><a href="">JSCRIPT</a>
+                        <ul>
+                            <li><a href="">Tablas</a></li>
+                            <li><a href="">Formulario</a></li>
+                            <li><a href="">IFRames</a></li>
+                        </ul>
+                    
+                    </li>
+                    
+                    <li><a href="">ESPECIALES</a>
+                        <ul>
+                            <li><a href="">Tablas</a></li>
+                            <li><a href="">Formulario</a></li>
+                            <li><a href="">IFRames</a></li>
+                        </ul>
+                    
+                    </li>
+                    
+                    <li><a href="">PHP</a>
+                        <ul>
+                            <li><a href="">Tablas</a></li>
+                            <li><a href="">Formulario</a></li>
+                            <li><a href="">IFRames</a></li>
+                        </ul>
+                    
+                    </li>                   
+                            
+                </ul>                 
+        </nav>
+
+
+
+
+    </body>
+</html>
